@@ -1,0 +1,131 @@
+
+body {
+        font: 0.8rem Arial;
+      }
+
+      .selection {
+        display: flex;
+        min-height: 65px;
+        visibility: hidden;
+      }
+
+      .selection div {
+        display: flex;
+      }
+
+      .selection select {
+        height: 1.6rem;
+        border: 1px solid #ccc;
+        background-color: #ffffff;
+        font-size: 1rem;
+      }
+
+      .selection label {
+        line-height: 1.6rem;
+        font-weight: bold;
+        margin: 0 10px 0;
+      }
+
+      .loaded .selection {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        visibility: visible;
+      }
+
+      .chart,
+      .loading {
+        width: 1100px;
+        height: 600px;
+        max-width: 80%;
+        position: absolute; 
+        right: 20px;
+        top: 100px;
+      }
+
+      .loading {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+      }
+
+      .loaded .loading {
+        display: none;
+      }
+
+      path.country1 {
+        stroke: #ed3700;
+        stroke-width: 2;
+        fill: none;
+      
+      }
+
+      .legend.country1 {
+        fill: #ed3700;
+      }
+
+      path.country2 {
+        stroke: 	#008000;
+        stroke-width: 2;
+        fill: none;
+      }
+
+      .legend.country2 {
+        fill: 	#008000;
+      }
+      path.country3 {
+        stroke: purple;
+        stroke-width: 2;
+        fill: none;
+      
+      }
+
+      .legend.country3 {
+        fill: purple;
+      }
+
+
+      .axis path,
+      .axis line {
+        fill: none;
+        stroke: grey;
+        stroke-width: 1;
+        shape-rendering: crispEdges;
+      }
+
+
+      #titre_1 {
+        background: red;
+        color: black;
+        padding: 10px 20px;
+        margin-bottom: 5px;
+        margin-top: 0;
+
+             }
+      h1 {
+        font-size: 1.25em;
+        line-height: 1.2em;
+          }
+
+
+body {
+    font-family: Verdana, monospace, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: justify;
+    background-color: #F8F8FF	;
+    
+}
+
+
+.grid line {
+  stroke: peru;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
