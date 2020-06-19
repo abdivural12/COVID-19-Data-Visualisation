@@ -10,3 +10,5 @@ Dans le but de visualiser de données, j'ai décidé d'utiliser la bibliothèque
 ## Exemple
 Ce graphique montre le nombre cumulé de cas détectés de COVID-19 dans une sélection des 3 pays.
 ![Cas confirmés](/chart/Capture1.png)
+Ce graphique montre l'évolution du nombre de décès identifiés par mois dans les pays sélectionnés.
+![Cas déces](/chart/Capture2.png)
