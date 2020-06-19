@@ -1,4 +1,4 @@
-# COVID-19-Data-Visualisation
+# Covid-19:La comparaison entre pays
 ## Contexte
 Ce projet a été réalisé dans le cadre du cours Visualisation de données dispensé par 	Loïc Cattani, Isaac Pante (SLI, Lettres, UNIL) afin qu’appliquer les méthodologies et les notions enseignées dans la visualisation de données.
 ## Description
